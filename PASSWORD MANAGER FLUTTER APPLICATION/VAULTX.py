@@ -26,6 +26,7 @@ def main(page :flet.Page):
             page.go('/addentry')
 
         elif e.control.selected_index == 2:
+            page.go('/editentry')
 
         elif e.control.selected_index == 3:
             page.go('/deleteentry')
